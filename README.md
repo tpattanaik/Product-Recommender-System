@@ -18,3 +18,25 @@ Build a recommender engine that reviews the
 customer ratings and purchase history to
 recommend items and improve sales for beauty
 products.
+
+# Data Summary:
+
+➢
+reviewerID UserId
+➢
+asin ProductId
+➢
+reviewer Name User
+Name
+➢
+helpful
+➢
+review Text
+➢
+overall Rating
+➢
+summary
+➢
+unixReviewTime
+➢
+review Time
