@@ -30,6 +30,7 @@ asin ProductId
 ➢
 reviewer Name User
 Name
+
 ➢
 helpful
 
@@ -47,5 +48,59 @@ unixReviewTime
 
 ➢
 review Time
+
+# Recommended Systems:
+
+➢
+Sharp system that provides idea about
+item to users that might interest them.
+
+➢
+Recommendation system is subclass of
+information filtering to predict
+preferences to the items used by or for
+users. It personalize recommendation
+and deals with information overload.
+These demands throws some
+challenges so different approaches like
+memory based, model based are used.
+
+# Need of recommendation systems:
+
+Recommender systems help in addressing the information overload problem by retrieving the information desired by the user based on his or similar users preferences and interests.
+
+# Approaches of Recommendation System:
+
+Recommendation system is usually
+classified on rating estimation:
+
+➢
+Collaborative Filtering system
+
+➢
+Content based system
+
+➢
+Hybrid based system
+
+# Exploratory Data Analysis:
+
+Feature Name- ProductId
+
+![image](https://user-images.githubusercontent.com/85148563/156231433-5b35194d-d825-4ec2-bbd5-153841386b7a.png)
+
+➢
+Plotted graph has only
+top 10 products.
+
+➢
+The graph is showing
+how many times a
+particular product has
+been sold.
+
+
+
+
 
 
