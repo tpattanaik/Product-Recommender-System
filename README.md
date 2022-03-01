@@ -99,8 +99,116 @@ how many times a
 particular product has
 been sold.
 
+Feature Name- UserId
 
+![image](https://user-images.githubusercontent.com/85148563/156231541-b5c630a6-5090-43bc-aeab-d9573d991bcf.png)
 
+➢
+Plotted graph has only
+top 10 Users.
 
+➢
+The graph is showing
+how many times a
+particular user has
+purchased a products.
 
+From chart it’s clear that-
 
+![image](https://user-images.githubusercontent.com/85148563/156231599-b34427d6-e098-46be-b468-c320d15b4bfc.png)
+
+➢
+Most of the product has
+given as highest rating.
+
+➢
+Very less number of
+product has low rating.
+
+Before Log Transformation
+
+![image](https://user-images.githubusercontent.com/85148563/156231660-d42236e9-ceec-46c1-8ace-069d07517b6f.png)
+
+After Log Transformation
+
+![image](https://user-images.githubusercontent.com/85148563/156231681-c54bd7fa-9b72-4870-b348-bb7b8e04543e.png)
+
+# SVD- Singular Value Decomposition
+
+The Singular Value
+Decomposition, is a matrix
+decomposition method for
+reducing a matrix to its
+constituent parts in order to
+make certain subsequent
+matrix calculations simpler. It
+provides another way to
+factorize a matrix, into singular
+vectors and singular values.
+
+# Machine Learning Algorithm:
+
+**Collaborative Recommendation System
+
+No of Components in SVD = 35
+
+Pivot Matrix: Shape (22363,12101)
+
+![image](https://user-images.githubusercontent.com/85148563/156231868-923d1c8b-1984-484c-9299-c8f14e317afe.png)
+
+**Evaluation for Collaborative Filtering
+
+recall@5: 0.3847
+
+recall@10: 0.4759
+
+recall@15: 0.5358
+
+**Content Based Recommendation System
+
+![image](https://user-images.githubusercontent.com/85148563/156232003-4ae1f2aa-218e-486f-be3a-6c488e0f167c.png)
+  
+**Cosine Similarity
+
+➢
+Cosine similarity measures the
+similarity between two vectors of
+an inner product space.
+
+➢
+It is measured by the cosine of
+the angle between two vectors
+and determines whether two
+vectors are pointing in roughly
+the same direction.
+
+➢
+It is often used to measure
+document similarity in text
+analysis.
+
+**Evaluation for Content Based Recommendation System
+
+recall@5:0.83814
+
+recall@10:0.8630
+
+recall@15:0.8680
+
+# Conclusion
+
+➢
+We got recall@5: 0.3847 and recall@10: 0.4759 for
+collaborative Model.
+
+➢
+We got recall@5: 0.83814 and recall@10: 0.8630 for
+content based Model.
+
+➢
+As we can see We are getting better recall value for
+content based model than collaborative model.
+
+➢
+So we can conclude that content based model is
+optimal model for product recommendation.
