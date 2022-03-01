@@ -23,20 +23,29 @@ products.
 
 ➢
 reviewerID UserId
+
 ➢
 asin ProductId
+
 ➢
 reviewer Name User
 Name
 ➢
 helpful
+
 ➢
 review Text
+
 ➢
 overall Rating
+
 ➢
 summary
+
 ➢
 unixReviewTime
+
 ➢
 review Time
+
+
